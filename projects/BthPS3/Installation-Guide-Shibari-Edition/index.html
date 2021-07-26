@@ -11,21 +11,19 @@
       
       
       
-        <link rel="canonical" href="https://vigem.org/projects/BthPS3/Installation-Guide-Shibari-Edition/">
-      
-      <link rel="shortcut icon" href="../../../images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.4">
+      <link rel="icon" href="../../../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.3">
     
     
       
-        <title>Installation Guide (Shibari Edition) - Virtual Gamepad Emulation Framework</title>
+        <title>Installation Guide (Shibari Edition) - DS4Windows</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.77f3fd56.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.e35208c4.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.7fa14f5b.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ef6f36e2.min.css">
         
           
           
@@ -47,8 +45,8 @@
       <link rel="stylesheet" href="../../../stylesheets/glightbox.css">
     
     
-      
-    
+  <script>if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,user:"Nefarius",utcoffset:"1"}))};sessionStorage.setItem("_swa","1");</script>
+
     
   </head>
   
@@ -59,8 +57,9 @@
     
     
     <body dir="ltr" data-md-color-scheme="" data-md-color-primary="teal" data-md-color-accent="">
-      
   
+    
+    <script>function __prefix(e){return new URL("../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -77,11 +76,9 @@
       
     </div>
     
-      
-
-<header class="md-header" data-md-component="header">
+      <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="https://vigem.org" title="Virtual Gamepad Emulation Framework" class="md-header__button md-logo" aria-label="Virtual Gamepad Emulation Framework">
+    <a href="../../.." title="DS4Windows" class="md-header__button md-logo" aria-label="DS4Windows" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -94,7 +91,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Virtual Gamepad Emulation Framework
+            DS4Windows
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -106,9 +103,8 @@
         </div>
       </div>
     </div>
-    <div class="md-header__options">
-      
-    </div>
+    
+    
     
       <label class="md-header__button md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
@@ -124,7 +120,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
       </label>
       <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
       </button>
     </form>
     <div class="md-search__output">
@@ -143,10 +139,10 @@
     
       <div class="md-header__source">
         
-<a href="https://github.com/ViGEm/ViGEm.github.io/" title="Go to repository" class="md-source" data-md-component="source">
+<a href="https://github.com/Kanuan/DS4W_Website.github.io/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -186,6 +182,18 @@
   <li class="md-tabs__item">
     <a href="../../../Community-Support/" class="md-tabs__link">
       Community and Support
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../../Donations/" class="md-tabs__link">
+      Donations
     </a>
   </li>
 
@@ -251,28 +259,26 @@
                   <div class="md-sidebar__inner">
                     
 
-
-
   
 
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="https://vigem.org" title="Virtual Gamepad Emulation Framework" class="md-nav__button md-logo" aria-label="Virtual Gamepad Emulation Framework">
+    <a href="../../.." title="DS4Windows" class="md-nav__button md-logo" aria-label="DS4Windows" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
 
     </a>
-    Virtual Gamepad Emulation Framework
+    DS4Windows
   </label>
   
     <div class="md-nav__source">
       
-<a href="https://github.com/ViGEm/ViGEm.github.io/" title="Go to repository" class="md-source" data-md-component="source">
+<a href="https://github.com/Kanuan/DS4W_Website.github.io/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -320,6 +326,21 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../Donations/" class="md-nav__link">
+        Donations
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../Downloads/" class="md-nav__link">
         Downloads
       </a>
@@ -340,14 +361,14 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
       
-      <label class="md-nav__link" for="__nav_4">
+      <label class="md-nav__link" for="__nav_5">
         Projects
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Projects" data-md-level="1">
-        <label class="md-nav__title" for="__nav_4">
+        <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
           Projects
         </label>
@@ -373,14 +394,14 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
       
-      <label class="md-nav__link" for="__nav_4_2">
+      <label class="md-nav__link" for="__nav_5_2">
         AirBender
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="AirBender" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_2">
+        <label class="md-nav__title" for="__nav_5_2">
           <span class="md-nav__icon md-icon"></span>
           AirBender
         </label>
@@ -426,14 +447,14 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" checked>
       
-      <label class="md-nav__link" for="__nav_4_3">
+      <label class="md-nav__link" for="__nav_5_3">
         BthPS3
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="BthPS3" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_3">
+        <label class="md-nav__title" for="__nav_5_3">
           <span class="md-nav__icon md-icon"></span>
           BthPS3
         </label>
@@ -557,6 +578,7 @@
       
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
+      
         
       
       
@@ -571,6 +593,7 @@
       
         
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
   
   
     
@@ -784,14 +807,14 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4" type="checkbox" id="__nav_4_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4" type="checkbox" id="__nav_5_4" >
       
-      <label class="md-nav__link" for="__nav_4_4">
+      <label class="md-nav__link" for="__nav_5_4">
         DsHidMini
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="DsHidMini" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_4">
+        <label class="md-nav__title" for="__nav_5_4">
           <span class="md-nav__icon md-icon"></span>
           DsHidMini
         </label>
@@ -814,8 +837,56 @@
   
   
     <li class="md-nav__item">
+      <a href="../../DsHidMini/DS4-Mode-User-Guide/" class="md-nav__link">
+        DS4Windows Mode User Guide
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DsHidMini/FAQ/" class="md-nav__link">
+        Frequently Asked Questions
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../DsHidMini/HID-Device-Modes-Explained/" class="md-nav__link">
-        About the HID Device Modes
+        HID Device Modes Explained
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DsHidMini/How-to-Install/" class="md-nav__link">
+        How to Install/Remove
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DsHidMini/Output-Rate-Control-Explained/" class="md-nav__link">
+        Output Rate Control Explained
       </a>
     </li>
   
@@ -828,6 +899,18 @@
     <li class="md-nav__item">
       <a href="../../DsHidMini/Roadmap/" class="md-nav__link">
         Roadmap
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DsHidMini/SIXAXIS.SYS-to-DsHidMini-Guide/" class="md-nav__link">
+        Switch from SIXAXIS.SYS to DsHidMini
       </a>
     </li>
   
@@ -847,14 +930,14 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_5" type="checkbox" id="__nav_4_5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_5" type="checkbox" id="__nav_5_5" >
       
-      <label class="md-nav__link" for="__nav_4_5">
+      <label class="md-nav__link" for="__nav_5_5">
         FireShock
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="FireShock" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_5">
+        <label class="md-nav__title" for="__nav_5_5">
           <span class="md-nav__icon md-icon"></span>
           FireShock
         </label>
@@ -886,14 +969,14 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_6" type="checkbox" id="__nav_4_6" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_6" type="checkbox" id="__nav_5_6" >
       
-      <label class="md-nav__link" for="__nav_4_6">
+      <label class="md-nav__link" for="__nav_5_6">
         HidGuardian
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="HidGuardian" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_6">
+        <label class="md-nav__title" for="__nav_5_6">
           <span class="md-nav__icon md-icon"></span>
           HidGuardian
         </label>
@@ -949,14 +1032,14 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_7" type="checkbox" id="__nav_4_7" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_7" type="checkbox" id="__nav_5_7" >
       
-      <label class="md-nav__link" for="__nav_4_7">
+      <label class="md-nav__link" for="__nav_5_7">
         HidHide
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="HidHide" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_7">
+        <label class="md-nav__title" for="__nav_5_7">
           <span class="md-nav__icon md-icon"></span>
           HidHide
         </label>
@@ -986,6 +1069,18 @@
   
 
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../HidHide/Simple-Setup-Guide/" class="md-nav__link">
+        Simple setup guide
+      </a>
+    </li>
+  
+
+          
         </ul>
       </nav>
     </li>
@@ -1000,14 +1095,14 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_8" type="checkbox" id="__nav_4_8" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_8" type="checkbox" id="__nav_5_8" >
       
-      <label class="md-nav__link" for="__nav_4_8">
+      <label class="md-nav__link" for="__nav_5_8">
         ScpToolkit
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="ScpToolkit" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_8">
+        <label class="md-nav__title" for="__nav_5_8">
           <span class="md-nav__icon md-icon"></span>
           ScpToolkit
         </label>
@@ -1020,6 +1115,18 @@
     <li class="md-nav__item">
       <a href="../../ScpToolkit/" class="md-nav__link">
         About ScpToolkit
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ScpToolkit/History/" class="md-nav__link">
+        History of SCP
       </a>
     </li>
   
@@ -1051,16 +1158,16 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_9" type="checkbox" id="__nav_4_9" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_9" type="checkbox" id="__nav_5_9" >
       
-      <label class="md-nav__link" for="__nav_4_9">
-        ViGEm
+      <label class="md-nav__link" for="__nav_5_9">
+        Shibari
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="ViGEm" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_9">
+      <nav class="md-nav" aria-label="Shibari" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_9">
           <span class="md-nav__icon md-icon"></span>
-          ViGEm
+          Shibari
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -1069,8 +1176,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ViGEm/" class="md-nav__link">
-        About ViGEm
+      <a href="../../Shibari/" class="md-nav__link">
+        About Shibari
       </a>
     </li>
   
@@ -1090,14 +1197,65 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_10" type="checkbox" id="__nav_4_10" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_10" type="checkbox" id="__nav_5_10" >
       
-      <label class="md-nav__link" for="__nav_4_10">
+      <label class="md-nav__link" for="__nav_5_10">
+        ViGEm
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="ViGEm" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_10">
+          <span class="md-nav__icon md-icon"></span>
+          ViGEm
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ViGEm/" class="md-nav__link">
+        About ViGEm
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ViGEm/How-to-Install/" class="md-nav__link">
+        How to Install/Remove
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_11" type="checkbox" id="__nav_5_11" >
+      
+      <label class="md-nav__link" for="__nav_5_11">
         WireShock
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="WireShock" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_10">
+        <label class="md-nav__title" for="__nav_5_11">
           <span class="md-nav__icon md-icon"></span>
           WireShock
         </label>
@@ -1138,14 +1296,14 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
       
-      <label class="md-nav__link" for="__nav_5">
+      <label class="md-nav__link" for="__nav_6">
         Research
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Research" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
+        <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
           Research
         </label>
@@ -1170,6 +1328,18 @@
     <li class="md-nav__item">
       <a href="../../../research/CORSAIR-GLAIVE-RGB-native-HID-Report-Descriptor/" class="md-nav__link">
         CORSAIR GLAIVE RGB native HID Report Descriptor
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../research/How-to-check-architecture/" class="md-nav__link">
+        How to check which architecture I'm running
       </a>
     </li>
   
@@ -1218,6 +1388,7 @@
                   <div class="md-sidebar__inner">
                     
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
   
   
     
@@ -1421,15 +1592,15 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/ViGEm/ViGEm.github.io/edit/master/docs/projects/BthPS3/Installation-Guide-Shibari-Edition.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/Kanuan/DS4W_Website.github.io/edit/master/docs/projects/BthPS3/Installation-Guide-Shibari-Edition.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
                 <h1 id="installation-guide-shibari-edition">Installation Guide (Shibari Edition)</h1>
 <div class="admonition attention">
-<p class="admonition-title">Kinda-SCP-Successor for Windows 10</p>
-<p>The following instructions are currently the best way to get your beloved PS3 peripherals to work, it still is quite the clutter but should get you into the game until DsHidMini is ready for the public <img alt="😇" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f607.svg" title=":innocent:" /></p>
+<p class="admonition-title">🚨 Obsolete solution 🚨</p>
+<p><a href="https://vigem.org/projects/DsHidMini/">DsHidMini</a> (official successor) has been released, please use that instead! This article will remain online for historic reasons but use is discouraged as no more updates will follow!</p>
 </div>
 <h2 id="whats-this">What's this</h2>
 <p>Ever wanted to use those pesky outdated yet absolutely lovely game controller devices shipped with your PlayStation(R) 3 on the Windows platform without constantly tripping over wires in your living room and risking becoming a victim of gravity? <img alt="🤔" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f914.svg" title=":thinking_face:" /> Well fear no more, you've come to the right place, mate! We got just the piece of magnificent software you need and all it will cost you is a few minutes of your precious time! <img alt="🎉" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f389.svg" title=":tada:" /></p>
@@ -1476,24 +1647,26 @@
 <p><a class="glightbox" href="/assets/uploads/files/a86fcc5f-bfd5-4c29-9b47-633d7ffbdc72-image.png"><img alt="a86fcc5f-bfd5-4c29-9b47-633d7ffbdc72-image.png" src="/assets/uploads/files/a86fcc5f-bfd5-4c29-9b47-633d7ffbdc72-image.png" /></a></p>
 <h2 id="faq">F.A.Q.</h2>
 <h3 id="have-you-gone-insane">Have you gone insane?</h3>
-<p>Maybe! When you stare into the kernel for too long, the kernel stares back <img alt="👻" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f47b.svg" title=":ghost:" /> </p>
+<p>Maybe! When you stare into the kernel for too long, the kernel stares back <img alt="👻" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f47b.svg" title=":ghost:" /></p>
 <h3 id="is-this-some-official-sony-thing">Is this some official Sony thing?</h3>
 <p>Well, obviously not, as clearly stated literally everywhere! It's a research project I started for fun and pushed towards becoming production-ready and thought it might be of use to my fellow gamers!</p>
 <h3 id="does-this-thing-phone-home-i-see-some-network-traffic-once-a-day">Does this thing phone home? I see some network traffic once a day...</h3>
 <p><del>I ship a self-updater with my drivers since pushing security/stability critical enhancements is vital for drivers. The updater checks <a href="https://updates.vigem.org">updates.vigem.org</a> once a day and remains silent if you're sporting the most recent version. There's a scheduled task called <code>BthPS3Updater</code> you can disable/delete by hand if this makes you nervous.</del></p>
 <p>Not a thing anymore since v1.3.x of BthPS3.</p>
 <h3 id="why-dont-you-cover-windows-versions-lower-than-10">Why don't you cover Windows versions lower than 10?</h3>
-<p>Production-signing is unfortunately fairly annoying and unnecessary complicated for drivers targeting multiple major revisions of Windows so to keep my sanity I went for Windows 10 only. The code of BthPS3 is - as we speak - technically compatible from Windows 7 to 10 so it could be back-ported in the future with little efforts.</p>
+<p>Production-signing is unfortunately fairly annoying and unnecessary complicated for drivers targeting multiple major revisions of Windows so to keep my sanity I went for Windows 10 only. <del>The code of BthPS3 is - as we speak - technically compatible from Windows 7 to 10 so it could be back-ported in the future with little efforts.</del></p>
+<p>Starting with <a href="https://github.com/ViGEm/BthPS3/commit/7959c119609138b9f5776ac99804f6062771ee4a">this commit</a> Windows 7 support is no longer given due to the introduction of a dependency not present in older OS versions.</p>
 <h3 id="why-is-this-shibari-thingy-necessary-to-run-this-clutter">Why is this Shibari thingy necessary to run this clutter?</h3>
-<p>I have plans for getting completely rid of this requirement, but that requires additional drivers which I've started working on but currently don't have the drive or capacity to deal with. Maybe if support and interest from the community rises above a certain threshold I'll tackle that topic some day again!</p>
+<p><del>I have plans for getting completely rid of this requirement, but that requires additional drivers which I've started working on but currently don't have the drive or capacity to deal with. Maybe if support and interest from the community rises above a certain threshold I'll tackle that topic some day again!</del></p>
+<p>No need, <a href="https://vigem.org/projects/DsHidMini/">use DsHidMini instead</a> of Shibari and FireShock!</p>
 <h3 id="how-do-i-get-pressure-sensitive-buttons-in-pcsx2-with-this">How do I get pressure sensitive buttons in PCSX2 with this?</h3>
-<p>That is possible but out of the scope of this project.</p>
+<p>That is possible but out of the scope of this project. <a href="https://vigem.org/projects/DsHidMini/">DsHidMini can do that for you</a>!</p>
 <h3 id="can-i-use-the-motion-capabilities-of-the-ps3-controllers">Can I use the motion capabilities of the PS3 controllers?</h3>
 <p>That is possible but out of the scope of this project.</p>
 <h3 id="i-want-some-battery-charge-indicator-like-scp">I want some battery charge indicator, like SCP!</h3>
-<p>That is possible but out of the scope of this project.</p>
+<p>That is possible but out of the scope of this project. <a href="https://vigem.org/projects/DsHidMini/">DsHidMini can do that for you</a>!</p>
 <h3 id="can-i-have-all-scp-features-like-quick-disconnect-combo-etc">Can I have all SCP features like quick disconnect combo etc.?</h3>
-<p>That is possible but out of the scope of this project.</p>
+<p>That is possible but out of the scope of this project. <a href="https://vigem.org/projects/DsHidMini/">DsHidMini can do that for you</a>!</p>
 <h3 id="i-sometimes-need-to-power-on-the-controller-twice-or-more-until-it-stays-connected">I sometimes need to power on the controller twice or more until it stays connected...</h3>
 <p>That's due to how certain connection details get stored within the Microsoft Bluetooth DDIs and when the driver attaches, there's no way around that other than just powering the controller on again!</p>
 <h3 id="the-setup-version-doesnt-match-the-driver-version-it-installs">The setup version doesn't match the driver version it installs...</h3>
@@ -1503,6 +1676,7 @@
 <h3 id="ever-since-ive-installed-this-my-ds3-isnt-working-anymore-in-psnow">Ever since I've installed this, my DS3 isn't working anymore in PSNow!</h3>
 <p><code>FireShock</code> and Sonys official <code>sixaxis</code> driver they ship with PSNow unfortunately can't coexist on the same system, if you want "traditional" USB support back you need to uninstall <code>FireShock</code>:</p>
 <p><a class="glightbox" href="/assets/uploads/files/7f5092c2-15e8-4dd8-bdb1-5a300607db15-image.png"><img alt="7f5092c2-15e8-4dd8-bdb1-5a300607db15-image.png" src="/assets/uploads/files/7f5092c2-15e8-4dd8-bdb1-5a300607db15-image.png" /></a></p>
+<p><a href="https://vigem.org/projects/DsHidMini/">Use DsHidMini instead</a> to get that feature back!</p>
 <h3 id="ever-since-ive-installed-this-my-ds4-isnt-connecting-anymore-at-all">Ever since I've installed this, my DS4 isn't connecting anymore at all!</h3>
 <p>This is a bit tricky at the moment; I've added a workaround to combat this where you <em>should</em> be able to use it like before without any troubles if you simply power it on, let it shut off after one or two seconds and then within a time span of ten seconds power it on again and it should work.</p>
 <h3 id="how-can-i-keep-shibari-running-in-the-background">How can I keep Shibari running in the background?</h3>
@@ -1520,10 +1694,7 @@
 <p>Done, delightful 😃</p>
 <h3 id="my-controller-is-randomly-pressing-buttons-or-axes-jitter-bug1">My controller is randomly pressing buttons or axes jitter, bug!!1!</h3>
 <p>Nope, this isn't and never was a software issue. Any misbehavior in regards to reported inputs comes from the controller hardware itself, not my tools. In short: your device is damaged or reached the end of its lifespan, sorry! Time to replace! 😔</p>
-<p>If you sport some of those lovely <del>fake</del> aftermarket devices from questionable stores from far away costing only a dime or two then you might have been screwed over and my software is not here to fix hardware manufacturers cuts, get proper genuine hardware or at least higher quality replicas <img alt="😉" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f609.svg" title=":wink:" /> </p>
-<hr />
-<p><strong><em>Stay tuned, more answers coming soon...</em></strong></p>
-<p><img alt="Alastor" src="/assets/uploads/files/65ffc789b05211faf1585083e2382c0b.gif" /></p>
+<p>If you sport some of those lovely <del>fake</del> aftermarket devices from questionable stores from far away costing only a dime or two then you might have been screwed over and my software is not here to fix hardware manufacturers cuts, get proper genuine hardware or at least higher quality replicas <img alt="😉" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f609.svg" title=":wink:" /></p>
 <hr />
 <div class="admonition important">
 <p class="admonition-title">Copyright (C) 2018-2021 - Nefarius Software Solutions e.U.</p>
@@ -1540,6 +1711,7 @@
             </article>
           </div>
         </div>
+        
       </main>
       
         
@@ -1591,6 +1763,7 @@
         <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
           Material for MkDocs
         </a>
+        
       </div>
       
   <div class="md-footer-social">
@@ -1623,10 +1796,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../../assets/javascripts/workers/search.fb4a9340.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.9b151c6a.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.4ea5477f.min.js"></script>
       
         <script src="../../../javascripts/glightbox.js"></script>
       

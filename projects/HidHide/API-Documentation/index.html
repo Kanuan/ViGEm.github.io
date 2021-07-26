@@ -11,21 +11,19 @@
       
       
       
-        <link rel="canonical" href="https://vigem.org/projects/HidHide/API-Documentation/">
-      
-      <link rel="shortcut icon" href="../../../images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.4">
+      <link rel="icon" href="../../../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.3">
     
     
       
-        <title>API Documentation - Virtual Gamepad Emulation Framework</title>
+        <title>API Documentation - DS4Windows</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.77f3fd56.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.e35208c4.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.7fa14f5b.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ef6f36e2.min.css">
         
           
           
@@ -47,8 +45,8 @@
       <link rel="stylesheet" href="../../../stylesheets/glightbox.css">
     
     
-      
-    
+  <script>if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,user:"Nefarius",utcoffset:"1"}))};sessionStorage.setItem("_swa","1");</script>
+
     
   </head>
   
@@ -59,8 +57,9 @@
     
     
     <body dir="ltr" data-md-color-scheme="" data-md-color-primary="teal" data-md-color-accent="">
-      
   
+    
+    <script>function __prefix(e){return new URL("../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -77,11 +76,9 @@
       
     </div>
     
-      
-
-<header class="md-header" data-md-component="header">
+      <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="https://vigem.org" title="Virtual Gamepad Emulation Framework" class="md-header__button md-logo" aria-label="Virtual Gamepad Emulation Framework">
+    <a href="../../.." title="DS4Windows" class="md-header__button md-logo" aria-label="DS4Windows" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -94,7 +91,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Virtual Gamepad Emulation Framework
+            DS4Windows
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -106,9 +103,8 @@
         </div>
       </div>
     </div>
-    <div class="md-header__options">
-      
-    </div>
+    
+    
     
       <label class="md-header__button md-icon" for="__search">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
@@ -124,7 +120,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
       </label>
       <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
       </button>
     </form>
     <div class="md-search__output">
@@ -143,10 +139,10 @@
     
       <div class="md-header__source">
         
-<a href="https://github.com/ViGEm/ViGEm.github.io/" title="Go to repository" class="md-source" data-md-component="source">
+<a href="https://github.com/Kanuan/DS4W_Website.github.io/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -186,6 +182,18 @@
   <li class="md-tabs__item">
     <a href="../../../Community-Support/" class="md-tabs__link">
       Community and Support
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../../Donations/" class="md-tabs__link">
+      Donations
     </a>
   </li>
 
@@ -251,28 +259,26 @@
                   <div class="md-sidebar__inner">
                     
 
-
-
   
 
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="https://vigem.org" title="Virtual Gamepad Emulation Framework" class="md-nav__button md-logo" aria-label="Virtual Gamepad Emulation Framework">
+    <a href="../../.." title="DS4Windows" class="md-nav__button md-logo" aria-label="DS4Windows" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
 
     </a>
-    Virtual Gamepad Emulation Framework
+    DS4Windows
   </label>
   
     <div class="md-nav__source">
       
-<a href="https://github.com/ViGEm/ViGEm.github.io/" title="Go to repository" class="md-source" data-md-component="source">
+<a href="https://github.com/Kanuan/DS4W_Website.github.io/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -320,6 +326,21 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../Donations/" class="md-nav__link">
+        Donations
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../Downloads/" class="md-nav__link">
         Downloads
       </a>
@@ -340,14 +361,14 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
       
-      <label class="md-nav__link" for="__nav_4">
+      <label class="md-nav__link" for="__nav_5">
         Projects
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Projects" data-md-level="1">
-        <label class="md-nav__title" for="__nav_4">
+        <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
           Projects
         </label>
@@ -373,14 +394,14 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
       
-      <label class="md-nav__link" for="__nav_4_2">
+      <label class="md-nav__link" for="__nav_5_2">
         AirBender
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="AirBender" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_2">
+        <label class="md-nav__title" for="__nav_5_2">
           <span class="md-nav__icon md-icon"></span>
           AirBender
         </label>
@@ -424,14 +445,14 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" type="checkbox" id="__nav_4_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" >
       
-      <label class="md-nav__link" for="__nav_4_3">
+      <label class="md-nav__link" for="__nav_5_3">
         BthPS3
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="BthPS3" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_3">
+        <label class="md-nav__title" for="__nav_5_3">
           <span class="md-nav__icon md-icon"></span>
           BthPS3
         </label>
@@ -571,14 +592,14 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4" type="checkbox" id="__nav_4_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4" type="checkbox" id="__nav_5_4" >
       
-      <label class="md-nav__link" for="__nav_4_4">
+      <label class="md-nav__link" for="__nav_5_4">
         DsHidMini
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="DsHidMini" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_4">
+        <label class="md-nav__title" for="__nav_5_4">
           <span class="md-nav__icon md-icon"></span>
           DsHidMini
         </label>
@@ -601,8 +622,56 @@
   
   
     <li class="md-nav__item">
+      <a href="../../DsHidMini/DS4-Mode-User-Guide/" class="md-nav__link">
+        DS4Windows Mode User Guide
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DsHidMini/FAQ/" class="md-nav__link">
+        Frequently Asked Questions
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../DsHidMini/HID-Device-Modes-Explained/" class="md-nav__link">
-        About the HID Device Modes
+        HID Device Modes Explained
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DsHidMini/How-to-Install/" class="md-nav__link">
+        How to Install/Remove
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DsHidMini/Output-Rate-Control-Explained/" class="md-nav__link">
+        Output Rate Control Explained
       </a>
     </li>
   
@@ -615,6 +684,18 @@
     <li class="md-nav__item">
       <a href="../../DsHidMini/Roadmap/" class="md-nav__link">
         Roadmap
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DsHidMini/SIXAXIS.SYS-to-DsHidMini-Guide/" class="md-nav__link">
+        Switch from SIXAXIS.SYS to DsHidMini
       </a>
     </li>
   
@@ -634,14 +715,14 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_5" type="checkbox" id="__nav_4_5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_5" type="checkbox" id="__nav_5_5" >
       
-      <label class="md-nav__link" for="__nav_4_5">
+      <label class="md-nav__link" for="__nav_5_5">
         FireShock
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="FireShock" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_5">
+        <label class="md-nav__title" for="__nav_5_5">
           <span class="md-nav__icon md-icon"></span>
           FireShock
         </label>
@@ -673,14 +754,14 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_6" type="checkbox" id="__nav_4_6" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_6" type="checkbox" id="__nav_5_6" >
       
-      <label class="md-nav__link" for="__nav_4_6">
+      <label class="md-nav__link" for="__nav_5_6">
         HidGuardian
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="HidGuardian" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_6">
+        <label class="md-nav__title" for="__nav_5_6">
           <span class="md-nav__icon md-icon"></span>
           HidGuardian
         </label>
@@ -738,14 +819,14 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_7" type="checkbox" id="__nav_4_7" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_7" type="checkbox" id="__nav_5_7" checked>
       
-      <label class="md-nav__link" for="__nav_4_7">
+      <label class="md-nav__link" for="__nav_5_7">
         HidHide
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="HidHide" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_7">
+        <label class="md-nav__title" for="__nav_5_7">
           <span class="md-nav__icon md-icon"></span>
           HidHide
         </label>
@@ -773,6 +854,7 @@
       
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
+      
         
       
       
@@ -789,6 +871,7 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
+  
     
   
   
@@ -797,6 +880,13 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#control-device" class="md-nav__link">
+    Control Device
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#io-control-commands" class="md-nav__link">
@@ -853,10 +943,56 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#usage-examples" class="md-nav__link">
+    Usage examples
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#preparation" class="md-nav__link">
+    Preparation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#retrieve-alter-and-submit-deny-list" class="md-nav__link">
+    Retrieve, alter and submit deny-list
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#retrieve-alter-and-submit-allow-list" class="md-nav__link">
+    Retrieve, alter and submit allow-list
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
       
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Simple-Setup-Guide/" class="md-nav__link">
+        Simple setup guide
+      </a>
     </li>
   
 
@@ -875,14 +1011,14 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_8" type="checkbox" id="__nav_4_8" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_8" type="checkbox" id="__nav_5_8" >
       
-      <label class="md-nav__link" for="__nav_4_8">
+      <label class="md-nav__link" for="__nav_5_8">
         ScpToolkit
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="ScpToolkit" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_8">
+        <label class="md-nav__title" for="__nav_5_8">
           <span class="md-nav__icon md-icon"></span>
           ScpToolkit
         </label>
@@ -895,6 +1031,18 @@
     <li class="md-nav__item">
       <a href="../../ScpToolkit/" class="md-nav__link">
         About ScpToolkit
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ScpToolkit/History/" class="md-nav__link">
+        History of SCP
       </a>
     </li>
   
@@ -926,16 +1074,16 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_9" type="checkbox" id="__nav_4_9" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_9" type="checkbox" id="__nav_5_9" >
       
-      <label class="md-nav__link" for="__nav_4_9">
-        ViGEm
+      <label class="md-nav__link" for="__nav_5_9">
+        Shibari
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="ViGEm" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_9">
+      <nav class="md-nav" aria-label="Shibari" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_9">
           <span class="md-nav__icon md-icon"></span>
-          ViGEm
+          Shibari
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -944,8 +1092,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../ViGEm/" class="md-nav__link">
-        About ViGEm
+      <a href="../../Shibari/" class="md-nav__link">
+        About Shibari
       </a>
     </li>
   
@@ -965,14 +1113,65 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_10" type="checkbox" id="__nav_4_10" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_10" type="checkbox" id="__nav_5_10" >
       
-      <label class="md-nav__link" for="__nav_4_10">
+      <label class="md-nav__link" for="__nav_5_10">
+        ViGEm
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="ViGEm" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_10">
+          <span class="md-nav__icon md-icon"></span>
+          ViGEm
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ViGEm/" class="md-nav__link">
+        About ViGEm
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ViGEm/How-to-Install/" class="md-nav__link">
+        How to Install/Remove
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_11" type="checkbox" id="__nav_5_11" >
+      
+      <label class="md-nav__link" for="__nav_5_11">
         WireShock
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="WireShock" data-md-level="2">
-        <label class="md-nav__title" for="__nav_4_10">
+        <label class="md-nav__title" for="__nav_5_11">
           <span class="md-nav__icon md-icon"></span>
           WireShock
         </label>
@@ -1013,14 +1212,14 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
       
-      <label class="md-nav__link" for="__nav_5">
+      <label class="md-nav__link" for="__nav_6">
         Research
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Research" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
+        <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
           Research
         </label>
@@ -1045,6 +1244,18 @@
     <li class="md-nav__item">
       <a href="../../../research/CORSAIR-GLAIVE-RGB-native-HID-Report-Descriptor/" class="md-nav__link">
         CORSAIR GLAIVE RGB native HID Report Descriptor
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../research/How-to-check-architecture/" class="md-nav__link">
+        How to check which architecture I'm running
       </a>
     </li>
   
@@ -1095,6 +1306,7 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
+  
     
   
   
@@ -1103,6 +1315,13 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#control-device" class="md-nav__link">
+    Control Device
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#io-control-commands" class="md-nav__link">
@@ -1159,6 +1378,40 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#usage-examples" class="md-nav__link">
+    Usage examples
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#preparation" class="md-nav__link">
+    Preparation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#retrieve-alter-and-submit-deny-list" class="md-nav__link">
+    Retrieve, alter and submit deny-list
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#retrieve-alter-and-submit-allow-list" class="md-nav__link">
+    Retrieve, alter and submit allow-list
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1171,17 +1424,65 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/ViGEm/ViGEm.github.io/edit/master/docs/projects/HidHide/API-Documentation.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/Kanuan/DS4W_Website.github.io/edit/master/docs/projects/HidHide/API-Documentation.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
                 <h1 id="api-documentation">API Documentation</h1>
 <div class="admonition important">
-<p class="admonition-title">Work in progress</p>
+<p class="admonition-title">Topic intended for developers</p>
+<p>This topic is intended for <strong>developers</strong> who'd like to build upon the capabilities of HidHide and alter driver configuration. As an end-user you can simply use the client UI application shipped along with the driver setup.</p>
+</div>
+<p>This article describes how an application can interact with the driver to influence which device instances get blocked and which processes get granted access. The steps outlined here are the only supported and safe way (besides the control application shipped along the driver) to interact with the driver and should be read carefully and thoroughly.</p>
+<h2 id="control-device">Control Device</h2>
+<p>The filter driver uses the common concept of exposing a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-control-device-objects">Control Device</a> which can be opened from any user-land process and used to send <a href="#io-control-commands">I/O Control Commands</a> to. No elevated privileges are required (and thus should be avoided) to access the control device.</p>
+<p>Use the <a href="https://docs.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-createfilea"><code>CreateFile</code></a> Windows API within the language/framework of your choice and open the path <code>\\.\HidHide</code>. See examples below for .NET or good ol' C/C++:</p>
+<div class="admonition example">
+<p class="admonition-title">Obtain Control Device handle</p>
+<div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">C#</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="c1">// Use e.g. https://github.com/dotnet/pinvoke/</span>
+<span class="c1">// Install-Package PInvoke.Kernel32</span>
+<span class="k">using</span> <span class="p">(</span><span class="kt">var</span> <span class="n">handle</span> <span class="p">=</span> <span class="n">Kernel32</span><span class="p">.</span><span class="n">CreateFile</span><span class="p">(</span><span class="s">&quot;\\\\.\\HidHide&quot;</span><span class="p">,</span>
+    <span class="n">Kernel32</span><span class="p">.</span><span class="n">ACCESS_MASK</span><span class="p">.</span><span class="n">GenericRight</span><span class="p">.</span><span class="n">GENERIC_READ</span><span class="p">,</span>
+    <span class="n">Kernel32</span><span class="p">.</span><span class="n">FileShare</span><span class="p">.</span><span class="n">FILE_SHARE_READ</span> <span class="p">|</span> <span class="n">Kernel32</span><span class="p">.</span><span class="n">FileShare</span><span class="p">.</span><span class="n">FILE_SHARE_WRITE</span><span class="p">,</span>
+    <span class="n">IntPtr</span><span class="p">.</span><span class="n">Zero</span><span class="p">,</span> <span class="n">Kernel32</span><span class="p">.</span><span class="n">CreationDisposition</span><span class="p">.</span><span class="n">OPEN_EXISTING</span><span class="p">,</span>
+    <span class="n">Kernel32</span><span class="p">.</span><span class="n">CreateFileFlags</span><span class="p">.</span><span class="n">FILE_ATTRIBUTE_NORMAL</span><span class="p">,</span>
+    <span class="n">Kernel32</span><span class="p">.</span><span class="n">SafeObjectHandle</span><span class="p">.</span><span class="n">Null</span>
+<span class="p">))</span>
+<span class="p">{</span>
+    <span class="c1">// call DeviceIoControl here</span>
+<span class="p">}</span>
+</code></pre></div>
+</div>
+<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">C/C++</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span> <span class="cpf">&lt;Windows.h&gt;</span><span class="cp"></span>
+
+<span class="n">HANDLE</span> <span class="n">handle</span> <span class="o">=</span> <span class="n">CreateFile</span><span class="p">(</span>
+    <span class="s">&quot;</span><span class="se">\\\\</span><span class="s">.</span><span class="se">\\</span><span class="s">HidHide&quot;</span><span class="p">,</span> 
+    <span class="n">GENERIC_READ</span><span class="p">,</span> 
+    <span class="p">(</span><span class="n">FILE_SHARE_READ</span> <span class="o">|</span> <span class="n">FILE_SHARE_WRITE</span> <span class="o">|</span> <span class="n">FILE_SHARE_DELETE</span><span class="p">),</span> 
+    <span class="nb">NULL</span><span class="p">,</span> 
+    <span class="n">OPEN_EXISTING</span><span class="p">,</span> 
+    <span class="n">FILE_ATTRIBUTE_NORMAL</span><span class="p">,</span> 
+    <span class="nb">NULL</span><span class="p">);</span>
+
+<span class="c1">// call DeviceIoControl here</span>
+
+<span class="n">CloseHandle</span><span class="p">(</span><span class="n">handle</span><span class="p">);</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<p>For other frameworks and languages please consult the appropriate documentation.</p>
+<div class="admonition important">
+<p class="admonition-title">Exclusive handle access enforced</p>
+<p>Reading and altering the lists of denied/allowed entities is not an atomic operation, therefore only one handle (process) is allowed to open the control device and issue requests at a time. Make sure to close the handle shortly after your operations are done to not block other processes which may want to talk to the driver.</p>
 </div>
 <h2 id="io-control-commands">I/O Control Commands</h2>
+<p>Driver behavior is altered entirely through the <a href="https://docs.microsoft.com/en-us/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol">DeviceIoControl</a> Windows API and outlined below. Arrays of strings are exchanged as a <a href="https://devblogs.microsoft.com/oldnewthing/20091008-00/?p=16443">double-null-terminated</a> <a href="https://docs.microsoft.com/en-us/cpp/c-language/multibyte-and-wide-characters?view=msvc-160">wide-character-string literal</a> so make sure to apply proper conversion and specify the correct buffer lengths (include all NULL-characters and multiply times <code>sizeof(wchar_t)</code>).</p>
 <h3 id="get-blacklist">Get Blacklist</h3>
+<p>Retrieves the current blacklist/block-list/deny-list of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-instance-ids">Device Instance IDs</a> which are currently blocked access to.</p>
 <table>
 <thead>
 <tr>
@@ -1217,6 +1518,7 @@
 </tbody>
 </table>
 <h3 id="set-blacklist">Set Blacklist</h3>
+<p>Submits a new blacklist/block-list/deny-list of <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-instance-ids">Device Instance IDs</a> which are then blocked access to.</p>
 <table>
 <thead>
 <tr>
@@ -1248,6 +1550,7 @@
 </tbody>
 </table>
 <h3 id="get-whitelist">Get Whitelist</h3>
+<p>Retrieves the current whitelist/allow-list of <a href="https://docs.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-querydosdevicew">absolute DOS device paths</a> to applications which are currently allowed to see blocked devices.</p>
 <table>
 <thead>
 <tr>
@@ -1283,6 +1586,7 @@
 </tbody>
 </table>
 <h3 id="set-whitelist">Set Whitelist</h3>
+<p>Submits a new whitelist/allow-list of <a href="https://docs.microsoft.com/en-us/windows/win32/api/fileapi/nf-fileapi-querydosdevicew">absolute DOS device paths</a> to applications which will then be allowed to see blocked devices.</p>
 <table>
 <thead>
 <tr>
@@ -1314,6 +1618,7 @@
 </tbody>
 </table>
 <h3 id="get-status">Get Status</h3>
+<p>Retrieves the current global status of blocking capabilities. Returns a boolean value if the the driver is currently blocking configured devices (<code>true</code>) or on pass-through (<code>false</code>).</p>
 <table>
 <thead>
 <tr>
@@ -1340,11 +1645,12 @@
 </tr>
 <tr>
 <td><code>nOutBufferSize</code></td>
-<td><code>sizeof(BOOLEAN)</code> (4 bytes)</td>
+<td><code>sizeof(BOOLEAN)</code> (1 byte)</td>
 </tr>
 </tbody>
 </table>
 <h3 id="set-status">Set Status</h3>
+<p>Submits the new global status of blocking capabilities. Sets a boolean value if the the driver is currently blocking configured devices (<code>true</code>) or on pass-through (<code>false</code>).</p>
 <table>
 <thead>
 <tr>
@@ -1363,7 +1669,7 @@
 </tr>
 <tr>
 <td><code>nInBufferSize</code></td>
-<td><code>sizeof(BOOLEAN)</code> (4 bytes)</td>
+<td><code>sizeof(BOOLEAN)</code> (1 byte)</td>
 </tr>
 <tr>
 <td><code>lpOutBuffer</code></td>
@@ -1375,6 +1681,34 @@
 </tr>
 </tbody>
 </table>
+<h2 id="usage-examples">Usage examples</h2>
+<p>The API usage should be fairly self-explanatory to anyone experienced with the basic Windows API, if in doubt, consult the Microsoft documentation for usage details 😉 For other high-level languages like C#/.NET wrapper libraries exist for the few required functions. A sample implementation is provided below (C#).</p>
+<h3 id="preparation">Preparation</h3>
+<p>First, since .NET doesn't really offer any convenience methods to deal with double-null-terminated wide-character-string literals I've thrown together this simple helper class:</p>
+<script src="https://gist.github.com/nefarius/59ee8d8bccd1f97039fc2ed9b61f0aa9.js"></script>
+
+<p>Dealing with the application list requires translating the native executable file path to the DOS device path the driver works with. This is a tricky task as it involves quite a few native API calls and logic taking NTFS mount points (junctions) into account. Feel free to utilise yet another helper class:</p>
+<script src="https://gist.github.com/nefarius/639b582dd8149b0ca63c4f7ca68a9761.js"></script>
+
+<p>With that out of the way we need the IOCTL definitions for the <code>DeviceIoControl</code> call. The values are simply computed from the helper macros which are not available in managed code:</p>
+<div class="admonition example">
+<p class="admonition-title">IOCTL code definitions</p>
+<div class="tabbed-set" data-tabs="2:1"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><label for="__tabbed_2_1">C#</label><div class="tabbed-content">
+<div class="highlight"><pre><span></span><code><span class="k">private</span> <span class="k">const</span> <span class="kt">uint</span> <span class="n">IOCTL_GET_WHITELIST</span> <span class="p">=</span> <span class="m">0</span><span class="n">x80016000</span><span class="p">;</span>
+<span class="k">private</span> <span class="k">const</span> <span class="kt">uint</span> <span class="n">IOCTL_SET_WHITELIST</span> <span class="p">=</span> <span class="m">0</span><span class="n">x80016004</span><span class="p">;</span>
+<span class="k">private</span> <span class="k">const</span> <span class="kt">uint</span> <span class="n">IOCTL_GET_BLACKLIST</span> <span class="p">=</span> <span class="m">0</span><span class="n">x80016008</span><span class="p">;</span>
+<span class="k">private</span> <span class="k">const</span> <span class="kt">uint</span> <span class="n">IOCTL_SET_BLACKLIST</span> <span class="p">=</span> <span class="m">0</span><span class="n">x8001600C</span><span class="p">;</span>
+<span class="k">private</span> <span class="k">const</span> <span class="kt">uint</span> <span class="n">IOCTL_GET_ACTIVE</span> <span class="p">=</span> <span class="m">0</span><span class="n">x80016010</span><span class="p">;</span>
+<span class="k">private</span> <span class="k">const</span> <span class="kt">uint</span> <span class="n">IOCTL_SET_ACTIVE</span> <span class="p">=</span> <span class="m">0</span><span class="n">x80016014</span><span class="p">;</span>
+</code></pre></div>
+</div>
+</div>
+</div>
+<h3 id="retrieve-alter-and-submit-deny-list">Retrieve, alter and submit deny-list</h3>
+<script src="https://gist.github.com/nefarius/880845646d177c74e94880f0568909d1.js"></script>
+
+<h3 id="retrieve-alter-and-submit-allow-list">Retrieve, alter and submit allow-list</h3>
+<script src="https://gist.github.com/nefarius/85c737da316ca5b68169a29f6e71d770.js"></script>
                 
               
               
@@ -1385,6 +1719,7 @@
             </article>
           </div>
         </div>
+        
       </main>
       
         
@@ -1407,13 +1742,13 @@
         </a>
       
       
-        <a href="../../ScpToolkit/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../Simple-Setup-Guide/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              About ScpToolkit
+              Simple setup guide
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -1436,6 +1771,7 @@
         <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
           Material for MkDocs
         </a>
+        
       </div>
       
   <div class="md-footer-social">
@@ -1468,10 +1804,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../../assets/javascripts/workers/search.fb4a9340.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.9b151c6a.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.4ea5477f.min.js"></script>
       
         <script src="../../../javascripts/glightbox.js"></script>
       
